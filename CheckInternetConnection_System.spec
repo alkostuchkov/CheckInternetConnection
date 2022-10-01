@@ -3,7 +3,7 @@
 block_cipher = None
 
 a = Analysis(['dlgMain.py'],
-             pathex=['/home/alexander/Projects/Python/CheckInternetConnection/.venv/lib/python3.10/site-packages/PyQt5', '/home/alexander/Projects/Python/CheckInternetConnection'],
+             pathex=['/home/alexander/Projects/Python/Virtualenvironments/poetry_venvs/py3.10.6_forTests_MostBloated/.venv/lib/python3.10/site-packages/PyQt5', '/home/alexander/Projects/Python/CheckInternetConnection'],
              binaries=[],
              datas=[],
              hiddenimports=[],
