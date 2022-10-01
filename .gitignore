@@ -1,0 +1,28 @@
+# Directories and files that cannot be commited to git
+
+# Byte-compiled
+__pycache__
+
+# Logs
+*.log
+
+# Editors
+.idea
+.vscode
+
+# Environments
+venv
+.venv
+env
+.env
+
+#  Temp / Cache
+cache
+.cache
+temp
+.temp
+.qt_for_python/
+
+# PyInstaller
+dist/
+build/

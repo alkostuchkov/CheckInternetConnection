@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlgMain</class>
+ <widget class="QDialog" name="dlgMain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>106</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Check Internet Connection</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/icons/connected.png</normaloff>:/icons/connected.png</iconset>
+  </property>
+  <action name="actQuitApp">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/close.png</normaloff>:/icons/close.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="toolTip">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actAbout">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/connected.png</normaloff>:/icons/connected.png</iconset>
+   </property>
+   <property name="text">
+    <string>About Program</string>
+   </property>
+   <property name="toolTip">
+    <string>About Program</string>
+   </property>
+  </action>
+  <action name="actAboutQt">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/Qt.png</normaloff>:/icons/Qt.png</iconset>
+   </property>
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+   <property name="toolTip">
+    <string>About Qt</string>
+   </property>
+  </action>
+  <action name="actStartWithSystem">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/start_with_system.png</normaloff>:/icons/start_with_system.png</iconset>
+   </property>
+   <property name="text">
+    <string>Start with system</string>
+   </property>
+   <property name="toolTip">
+    <string>Start with system</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
