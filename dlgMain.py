@@ -108,6 +108,13 @@ class MainWindow(QtWidgets.QDialog):
         self.internetStatusChanged.connect(self.internetStatusChanged_changed)
 
         self.ui.actStartWithSystem.triggered.connect(self.actStartWithSystem_triggered)
+        self.ui.actStartWithSystem.changed.connect(self.actStartWithSystem_changed)
+
+    @QtCore.pyqtSlot()
+    def actStartWithSystem_changed(self):
+        """ Write settings on actStartWithSystem changed. """
+        self.writeSettings()
+        self._settings.sync()
 
     @QtCore.pyqtSlot()
     def actStartWithSystem_triggered(self):
